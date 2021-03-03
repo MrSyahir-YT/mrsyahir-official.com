@@ -1,0 +1,42 @@
+body {
+    background-color: #c7dfe6;
+    font-family: sans-serif;
+}
+.medsos {
+    padding: 3px 10px;
+    background-color: rgb(55, 146, 236);
+}
+.medsos ul li {
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 10px;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header h1 {
+    float: left;
+    padding: 15px 0;
+    color: steelblue;
+}
+header ul {
+    float: right;
+}
+header ul li {
+    display: inline-block;
+}
+header ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+}
+header ul li a:hover {
+    background-color: #fcfcfc;
+    color: rgb(15, 15, 15);
+
+}
+.active {
+    background-color: skyblue;
+    color: white;
+}
